@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349EAB5A2B034B4300DC35F7 /* Inclusive_MindsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EAB592B034B4300DC35F7 /* Inclusive_MindsApp.swift */; };
+		349EAB5C2B034B4300DC35F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EAB5B2B034B4300DC35F7 /* ContentView.swift */; };
+		349EAB5E2B034B4500DC35F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349EAB5D2B034B4500DC35F7 /* Assets.xcassets */; };
+		349EAB612B034B4500DC35F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349EAB602B034B4500DC35F7 /* Preview Assets.xcassets */; };
+		349EAB6B2B034B4500DC35F7 /* Inclusive_MindsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EAB6A2B034B4500DC35F7 /* Inclusive_MindsTests.swift */; };
+		349EAB752B034B4500DC35F7 /* Inclusive_MindsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EAB742B034B4500DC35F7 /* Inclusive_MindsUITests.swift */; };
+		349EAB772B034B4500DC35F7 /* Inclusive_MindsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EAB762B034B4500DC35F7 /* Inclusive_MindsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349EAB672B034B4500DC35F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349EAB4E2B034B4300DC35F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349EAB552B034B4300DC35F7;
+			remoteInfo = "Inclusive Minds";
+		};
+		349EAB712B034B4500DC35F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349EAB4E2B034B4300DC35F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349EAB552B034B4300DC35F7;
+			remoteInfo = "Inclusive Minds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349EAB562B034B4300DC35F7 /* Inclusive Minds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inclusive Minds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EAB592B034B4300DC35F7 /* Inclusive_MindsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_MindsApp.swift; sourceTree = "<group>"; };
+		349EAB5B2B034B4300DC35F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		349EAB5D2B034B4500DC35F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349EAB602B034B4500DC35F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		349EAB662B034B4500DC35F7 /* Inclusive MindsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inclusive MindsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EAB6A2B034B4500DC35F7 /* Inclusive_MindsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_MindsTests.swift; sourceTree = "<group>"; };
+		349EAB702B034B4500DC35F7 /* Inclusive MindsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inclusive MindsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EAB742B034B4500DC35F7 /* Inclusive_MindsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_MindsUITests.swift; sourceTree = "<group>"; };
+		349EAB762B034B4500DC35F7 /* Inclusive_MindsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_MindsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349EAB532B034B4300DC35F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB632B034B4500DC35F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB6D2B034B4500DC35F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349EAB4D2B034B4300DC35F7 = {
+			isa = PBXGroup;
+			children = (
+				349EAB582B034B4300DC35F7 /* Inclusive Minds */,
+				349EAB692B034B4500DC35F7 /* Inclusive MindsTests */,
+				349EAB732B034B4500DC35F7 /* Inclusive MindsUITests */,
+				349EAB572B034B4300DC35F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349EAB572B034B4300DC35F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349EAB562B034B4300DC35F7 /* Inclusive Minds.app */,
+				349EAB662B034B4500DC35F7 /* Inclusive MindsTests.xctest */,
+				349EAB702B034B4500DC35F7 /* Inclusive MindsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349EAB582B034B4300DC35F7 /* Inclusive Minds */ = {
+			isa = PBXGroup;
+			children = (
+				349EAB592B034B4300DC35F7 /* Inclusive_MindsApp.swift */,
+				349EAB5B2B034B4300DC35F7 /* ContentView.swift */,
+				349EAB5D2B034B4500DC35F7 /* Assets.xcassets */,
+				349EAB5F2B034B4500DC35F7 /* Preview Content */,
+			);
+			path = "Inclusive Minds";
+			sourceTree = "<group>";
+		};
+		349EAB5F2B034B4500DC35F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				349EAB602B034B4500DC35F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		349EAB692B034B4500DC35F7 /* Inclusive MindsTests */ = {
+			isa = PBXGroup;
+			children = (
+				349EAB6A2B034B4500DC35F7 /* Inclusive_MindsTests.swift */,
+			);
+			path = "Inclusive MindsTests";
+			sourceTree = "<group>";
+		};
+		349EAB732B034B4500DC35F7 /* Inclusive MindsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349EAB742B034B4500DC35F7 /* Inclusive_MindsUITests.swift */,
+				349EAB762B034B4500DC35F7 /* Inclusive_MindsUITestsLaunchTests.swift */,
+			);
+			path = "Inclusive MindsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349EAB552B034B4300DC35F7 /* Inclusive Minds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EAB7A2B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive Minds" */;
+			buildPhases = (
+				349EAB522B034B4300DC35F7 /* Sources */,
+				349EAB532B034B4300DC35F7 /* Frameworks */,
+				349EAB542B034B4300DC35F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inclusive Minds";
+			productName = "Inclusive Minds";
+			productReference = 349EAB562B034B4300DC35F7 /* Inclusive Minds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349EAB652B034B4500DC35F7 /* Inclusive MindsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EAB7D2B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive MindsTests" */;
+			buildPhases = (
+				349EAB622B034B4500DC35F7 /* Sources */,
+				349EAB632B034B4500DC35F7 /* Frameworks */,
+				349EAB642B034B4500DC35F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349EAB682B034B4500DC35F7 /* PBXTargetDependency */,
+			);
+			name = "Inclusive MindsTests";
+			productName = "Inclusive MindsTests";
+			productReference = 349EAB662B034B4500DC35F7 /* Inclusive MindsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349EAB6F2B034B4500DC35F7 /* Inclusive MindsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349EAB802B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive MindsUITests" */;
+			buildPhases = (
+				349EAB6C2B034B4500DC35F7 /* Sources */,
+				349EAB6D2B034B4500DC35F7 /* Frameworks */,
+				349EAB6E2B034B4500DC35F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349EAB722B034B4500DC35F7 /* PBXTargetDependency */,
+			);
+			name = "Inclusive MindsUITests";
+			productName = "Inclusive MindsUITests";
+			productReference = 349EAB702B034B4500DC35F7 /* Inclusive MindsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349EAB4E2B034B4300DC35F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					349EAB552B034B4300DC35F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					349EAB652B034B4500DC35F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 349EAB552B034B4300DC35F7;
+					};
+					349EAB6F2B034B4500DC35F7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 349EAB552B034B4300DC35F7;
+					};
+				};
+			};
+			buildConfigurationList = 349EAB512B034B4300DC35F7 /* Build configuration list for PBXProject "Inclusive Minds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349EAB4D2B034B4300DC35F7;
+			productRefGroup = 349EAB572B034B4300DC35F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349EAB552B034B4300DC35F7 /* Inclusive Minds */,
+				349EAB652B034B4500DC35F7 /* Inclusive MindsTests */,
+				349EAB6F2B034B4500DC35F7 /* Inclusive MindsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349EAB542B034B4300DC35F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EAB612B034B4500DC35F7 /* Preview Assets.xcassets in Resources */,
+				349EAB5E2B034B4500DC35F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB642B034B4500DC35F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB6E2B034B4500DC35F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349EAB522B034B4300DC35F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EAB5C2B034B4300DC35F7 /* ContentView.swift in Sources */,
+				349EAB5A2B034B4300DC35F7 /* Inclusive_MindsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB622B034B4500DC35F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EAB6B2B034B4500DC35F7 /* Inclusive_MindsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349EAB6C2B034B4500DC35F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EAB752B034B4500DC35F7 /* Inclusive_MindsUITests.swift in Sources */,
+				349EAB772B034B4500DC35F7 /* Inclusive_MindsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349EAB682B034B4500DC35F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349EAB552B034B4300DC35F7 /* Inclusive Minds */;
+			targetProxy = 349EAB672B034B4500DC35F7 /* PBXContainerItemProxy */;
+		};
+		349EAB722B034B4500DC35F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349EAB552B034B4300DC35F7 /* Inclusive Minds */;
+			targetProxy = 349EAB712B034B4500DC35F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		349EAB782B034B4500DC35F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349EAB792B034B4500DC35F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349EAB7B2B034B4500DC35F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inclusive Minds/Preview Content\"";
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Minds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349EAB7C2B034B4500DC35F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inclusive Minds/Preview Content\"";
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Minds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		349EAB7E2B034B4500DC35F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-MindsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inclusive Minds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inclusive Minds";
+			};
+			name = Debug;
+		};
+		349EAB7F2B034B4500DC35F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-MindsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inclusive Minds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inclusive Minds";
+			};
+			name = Release;
+		};
+		349EAB812B034B4500DC35F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-MindsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inclusive Minds";
+			};
+			name = Debug;
+		};
+		349EAB822B034B4500DC35F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-MindsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inclusive Minds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349EAB512B034B4300DC35F7 /* Build configuration list for PBXProject "Inclusive Minds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EAB782B034B4500DC35F7 /* Debug */,
+				349EAB792B034B4500DC35F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349EAB7A2B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive Minds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EAB7B2B034B4500DC35F7 /* Debug */,
+				349EAB7C2B034B4500DC35F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349EAB7D2B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive MindsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EAB7E2B034B4500DC35F7 /* Debug */,
+				349EAB7F2B034B4500DC35F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349EAB802B034B4500DC35F7 /* Build configuration list for PBXNativeTarget "Inclusive MindsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349EAB812B034B4500DC35F7 /* Debug */,
+				349EAB822B034B4500DC35F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349EAB4E2B034B4300DC35F7 /* Project object */;
+}
